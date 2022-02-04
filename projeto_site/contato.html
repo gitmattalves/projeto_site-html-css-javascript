@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevGuide</title>
+    <link rel="stylesheet" href="assets/style/style.css">
+	<link rel="stylesheet" href="assets/style/stylecontato.css">
+</head>
+
+
+<!-- área do menu principal -->
+
+<header>
+     <section>
+      <div class="header">
+      <div class="logo">
+      <img src="assets/image/pnglogo.png" alt="webdev">
+      <p >DevGuide</p>
+      </div>
+
+<nav>
+     <ul>
+     <li><a href="index.html">Home</a></li>
+     <li><a href="blog.html">Blog</a></li>
+     <li><a href="equipe.html">Equipe</a></li>
+     <li><a href="contato.html">Contato</a></li>
+     </ul>
+</nav> 
+     </div>
+    </section>
+</header>
+
+
+<!-- área do corpo -->
+
+<p> Olá visitante, veja a seguir as formas de contato: <p/>
+
+<hgroup id="contato">
+
+<p>Faça contato por telefone,WhatsApp ou email:</p>
+
+
+
+<br>
+<br>
+<br>
+<p><ul>
+<li>Telefone: +55(48)3234-3234 </li>
+<li>WhatsApp: +55(48)99601-4444</li> 
+<li>Email:devguidecontato@gmail.com</li>
+</ul>
+
+
+
+</hgroup>
+
+
+<hgroup id="formulario">
+
+      <p> Faça contato preenchendo o formulário:</p>
+
+      <form id="formcontato" method="post" action="">  
+
+      
+    <fieldset> <legend>Identificação:</legend>
+      <p>
+	  <label for="idNomeCompleto">Nome completo: </label>
+	  <input type="text" name="nomecompleto" id="idNomeCompleto" maxlength="80" 
+	  placeholder="Digite aqui..." /> </p>
+	 
+      <p>
+	  <label for="idEmail"> E-mail:</label>
+	  <input type="email" name="nomeEmail" id="idEmail" /> </p>
+	  
+      <p>
+	  <label for="idDataNasc">Data de nascimento:</label> 
+	  <input type="date" name="nomeDataNasc" is="idDataNasc" /> </p>
+	  
+	  <p>
+	  <fieldset id="Sexo"><legend>Sexo:</legend>
+	    <input type="radio" name="nomeSexo" id="idFeminino" /> Feminino <br/>
+	    <input type="radio" name="nomeSexo" id="idMasculino" />Masculino <br/>
+	    <input type="radio" name="nomeSexo" id="idOutro" /> Outro
+	   </fieldset>
+	   </p>
+	</fieldset>
+  
+    <fieldset >  <legend>Endereço:</legend>
+  
+      <p>
+	  <label for="idRua">Rua: </label>
+	  <input type="text" name="nomeRua" id="idRua">
+	  </p> 
+	   
+      <p> 
+	  <label for="idNumero">Número:</label>
+	  <input type="number" name="nomeNumero" id="idNumero">
+	  </p>
+	   
+      <p> 
+	  <label for="idCidade">Cidade:</label>
+	  <input type="text" name="nomeCidade" id="idCidade">
+	  </p> 
+	   
+	   
+      <p> 
+	  <label for="idEstado">Estado:</label>
+      <select name="nomeEstado" id="idEstado">
+	  <option>Clique para selecioanr </option>
+	  <option>Paraná </option>
+      <option>Rio Grande do Sul </option>
+      <option selected >Santa Catarina </option>
+       </select>
+       </p>  
+   </fieldset>  
+  
+   
+   <fieldset> <legend> Escreva uma mensagem:</legend>
+       <p>
+	   <label for="idMensagem">Mensagem:</label>
+	   <textarea name="nomeMensagem" id="idMensagem" cols="80" rows="10" ></textarea>
+	   <p> 
+	   
+       <p>
+       <input type="checkbox" name="nomeNotificacao" id="idNotificacao" checked/>
+       Desejo receber notificações de novas postagens.
+       </p>
+       </fieldset>
+   
+   <input type="submit" name="nomeBotao" id="idBotao"
+   
+
+   </form>
+   </hgroup>
+
+
+<!-- área do rodapé -->
+
+<footer>
+    
+        <div class="foot">
+          <p>Copyright © 2021 by DevGuide
+                protegido pelos Direitos Autorais
+          </p>
+          <div class="social">
+          <a href="mailto:devguidecontato@gmail.com"><img class="instagram" src="assets/image/gmail.png" alt=""></a> 
+          <a href="https://api.whatsapp.com/send?phone=5548991391798&text=Ol%C3%A1!" target="_blank"><img class="github" src="assets/image/wa.png" alt=""></a>
+          </div>
+
+        </div>
+       
+    
+</footer>
+
+</html>
